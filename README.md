@@ -51,14 +51,6 @@ Dataset ini mencakup kategori berikut:
 - **Sampah Organik**: Sisa makanan seperti kulit buah, potongan sayuran, cangkang telur, ampas kopi, dan kantong teh.
 - **Tekstil**: Pakaian dan sepatu.
 
-### Penggunaan dan Aplikasi Dataset
-Dataset ini menawarkan banyak kemungkinan untuk:
-
-1. Mengembangkan dan melatih model pembelajaran mesin untuk klasifikasi sampah otomatis.
-2. Menganalisis karakteristik visual dari berbagai material sampah.
-3. Membandingkan kinerja algoritma klasifikasi sampah pada gambar standar dan gambar dunia nyata.
-4. Meneliti dampak skenario dunia nyata terhadap akurasi pengenalan sampah.
-
 ## Pembagian Dataset
 Dataset ini perlu dibagi secara manual menjadi set pelatihan (*training*), validasi (*validation*), dan pengujian (*testing*). 
 ---
