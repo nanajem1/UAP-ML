@@ -115,7 +115,8 @@ Dataset mencakup berbagai gambar sampah, seperti:
 
 ## **Link Live Demo**
 Jika aplikasi telah di-deploy, tambahkan tautan berikut:
-- **URL Live Demo**: [Aplikasi Web Sampah Cerdas](https://your-app-name.herokuapp.com) *(Ganti dengan URL Anda).*
+- **URL Lokal**: [http://127.0.0.1:5000](http://127.0.0.1:5000)  
+
 
 ---
 
