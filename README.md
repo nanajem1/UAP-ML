@@ -90,7 +90,7 @@ Dataset ini mencakup kategori berikut:
    ```
 
 6. **Akses Aplikasi di Browser:**
-   Buka `http://127.0.0.1:5000` untuk menggunakan aplikasi.
+   Buka `http://127.0.0.1:8000` untuk menggunakan aplikasi.
 
    </details>
 
@@ -139,7 +139,7 @@ Dataset ini mencakup kategori berikut:
 
 ## **Link Live Demo**
 Jika aplikasi telah di-deploy, tambahkan tautan berikut:
-- **URL Lokal**: [http://127.0.0.1:5000](http://127.0.0.1:5000)  
+- **URL Lokal**: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
 
 
 ---
