@@ -8,7 +8,7 @@
 - [Deskripsi Model](#deskripsi-model)
 - [Hasil dan Analisis](#hasil-dan-analisis)
 - [Link Live Demo](#link-live-demo)
-- [Anggota Tim](#anggota-tim)
+- [Author](#author)
 
 ---
 
@@ -87,12 +87,13 @@ Dataset mencakup berbagai gambar sampah, seperti:
 - **Fitur Tambahan:** Sistem menandai input sebagai "Bukan Sampah" jika confidence rendah.
 
 </details>
----
 
-<details>
+---
 
 ## **Hasil dan Analisis**
 
+<details>
+   
 ### **Metrik Evaluasi**
 - **Confusion Matrix**:
   - True Positives (TP): 80
