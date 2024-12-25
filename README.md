@@ -29,8 +29,7 @@ Dataset ini berisi kumpulan 15.000 gambar (masing-masing berukuran 256x256 pikse
 
 **Sumber Dataset:** Dataset ini berasal dari Kaggle, dapat diakses melalui tautan berikut: [Recyclable and Household Waste Classification Dataset](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification/data).
 
----
-### Struktur Dataset
+## Struktur Dataset
 
  <details>
   
@@ -54,6 +53,8 @@ Dataset ini mencakup kategori berikut:
 - **Tekstil**: Pakaian dan sepatu.
 
  </details>
+ 
+---
 
 ## **Langkah Instalasi**
 
