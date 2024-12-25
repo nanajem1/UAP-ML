@@ -27,6 +27,8 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
 
 ## **Langkah Instalasi**
 
+<details>
+
 1. **Clone Repository:**
    ```bash
    git clone <repository-url>
@@ -60,6 +62,8 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
 
 6. **Akses Aplikasi di Browser:**
    Buka `http://127.0.0.1:5000` untuk menggunakan aplikasi.
+
+   </details>
 
 ---
 
