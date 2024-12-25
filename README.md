@@ -4,6 +4,7 @@
 
 ## **Table of Contents**
 - [About](#about)
+- [Dataset](#dataset)
 - [Langkah Instalasi](#langkah-instalasi)
 - [Deskripsi Model](#deskripsi-model)
 - [Hasil dan Analisis](#hasil-dan-analisis)
@@ -23,6 +24,8 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
 2. Meningkatkan efisiensi dalam proses daur ulang.
 3. Membantu pengguna memahami pentingnya memilah sampah.
 
+---
+## **Dataset**
 ---
 
 ## **Langkah Instalasi**
@@ -75,11 +78,6 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
   - **Input:** Gambar berukuran 224x224 piksel.
   - **Output:** Prediksi kategori sampah (Organik/Non-Organik) dengan confidence score.
   - **Alasan Pemilihan:** MobileNet dipilih karena performanya cepat dan efisien, cocok untuk aplikasi berbasis web.
-
-### **Dataset**
-Dataset mencakup berbagai gambar sampah, seperti:
-- **Organik:** Kulit telur, sisa makanan, ampas kopi.
-- **Non-Organik:** Kardus, botol plastik, kaleng.
 
 ### **Analisis Performa**
 - **Akurasi Model:** 85%
