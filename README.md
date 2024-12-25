@@ -66,10 +66,10 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
    </details>
 
 ---
+## **Deskripsi Model**
 
 <details>
 
-## **Deskripsi Model**
 ### **Model yang Digunakan**
 - **Model:** MobileNet
   - **Input:** Gambar berukuran 224x224 piksel.
