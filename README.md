@@ -30,10 +30,10 @@ Dataset ini berisi kumpulan 15.000 gambar (masing-masing berukuran 256x256 pikse
 **Sumber Dataset:** Dataset ini berasal dari Kaggle, dapat diakses melalui tautan berikut: [Recyclable and Household Waste Classification Dataset](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification/data).
 
 ---
+### Struktur Dataset
 
  <details>
-
-### Struktur Dataset
+  
 Dataset diorganisasi dalam struktur folder hierarkis yang memudahkan navigasi dan aksesibilitas. Folder utama bernama `images` yang berisi subfolder untuk setiap kategori sampah atau item. Nama subfolder digunakan sebagai label untuk kategorinya masing-masing, sehingga memudahkan identifikasi dan pemanfaatan gambar untuk penelitian atau pengembangan.
 
 Setiap subfolder kategori memiliki dua folder utama:
