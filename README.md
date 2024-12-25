@@ -12,10 +12,8 @@
 ---
 
 ## **About**
-Proyek ini bertujuan untuk membantu mengklasifikasikan sampah menjadi dua kategori utama: **Organik** dan **Non-Organik**. Dengan menggunakan teknologi berbasis **Machine Learning**, sistem ini dapat membantu optimalisasi pengelolaan sampah untuk mendukung program daur ulang dan keberlanjutan lingkungan.
-
-### **Latar Belakang**
 Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. Dengan memilah sampah menggunakan sistem otomatis, masyarakat dapat lebih mudah mendukung upaya daur ulang.
+Proyek ini bertujuan untuk membantu mengklasifikasikan sampah menjadi dua kategori utama: **Organik** dan **Non-Organik**. Dengan menggunakan teknologi berbasis **Machine Learning**, sistem ini dapat membantu optimalisasi pengelolaan sampah untuk mendukung program daur ulang dan keberlanjutan lingkungan.
 
 ### **Tujuan**
 1. Mengembangkan sistem berbasis AI untuk mengklasifikasikan sampah.
