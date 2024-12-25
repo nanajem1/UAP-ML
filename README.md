@@ -118,9 +118,5 @@ Jika aplikasi telah di-deploy, tambahkan tautan berikut:
 
 ---
 
-## **Anggota Tim**
-- **Nama Tim:** F20
-- **Anggota:**
-  - [Nama 1]
-  - [Nama 2]
-  - [Nama 3]
+## **Author**
+ [Indri Reghina Putri](https://github.com/nanajem1) - 202110370311096
