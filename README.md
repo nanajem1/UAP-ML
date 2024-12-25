@@ -49,10 +49,6 @@ Dataset ini mencakup kategori berikut:
 - **Sampah Organik**: Sisa makanan seperti kulit buah, potongan sayuran, cangkang telur, ampas kopi, dan kantong teh.
 - **Tekstil**: Pakaian dan sepatu.
 
-## Pembagian Dataset
-Dataset ini perlu dibagi secara manual menjadi set pelatihan (*training*), validasi (*validation*), dan pengujian (*testing*). 
----
-
 ## **Langkah Instalasi**
 
 <details>
