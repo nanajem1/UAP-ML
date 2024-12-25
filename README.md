@@ -67,6 +67,8 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
 
 ---
 
+<details>
+
 ## **Deskripsi Model**
 ### **Model yang Digunakan**
 - **Model:** MobileNet
@@ -84,7 +86,10 @@ Dataset mencakup berbagai gambar sampah, seperti:
 - **Ambang Confidence:** 50% untuk memastikan prediksi akurat.
 - **Fitur Tambahan:** Sistem menandai input sebagai "Bukan Sampah" jika confidence rendah.
 
+</details>
 ---
+
+<details>
 
 ## **Hasil dan Analisis**
 
@@ -102,6 +107,8 @@ Dataset mencakup berbagai gambar sampah, seperti:
 ### **Visualisasi**
 - Grafik perbandingan akurasi dan loss selama pelatihan.
 - Diagram confusion matrix untuk mengevaluasi prediksi model.
+
+</details>
 
 ---
 
