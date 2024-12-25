@@ -1,7 +1,5 @@
 # **Prediksi Sampah Organik dan Non-Organik untuk Optimalisasi Sistem Daur Ulang Cerdas** ♻️
 
-![Sampah Cerdas](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Recycling_symbol.svg/1024px-Recycling_symbol.svg.png)
-
 ## **Table of Contents**
 - [About](#about)
 - [Dataset](#dataset)
