@@ -29,6 +29,10 @@ Dataset ini berisi kumpulan 15.000 gambar (masing-masing berukuran 256x256 pikse
 
 **Sumber Dataset:** Dataset ini berasal dari Kaggle, dapat diakses melalui tautan berikut: [Recyclable and Household Waste Classification Dataset](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification/data).
 
+---
+
+ <details>
+
 ### Struktur Dataset
 Dataset diorganisasi dalam struktur folder hierarkis yang memudahkan navigasi dan aksesibilitas. Folder utama bernama `images` yang berisi subfolder untuk setiap kategori sampah atau item. Nama subfolder digunakan sebagai label untuk kategorinya masing-masing, sehingga memudahkan identifikasi dan pemanfaatan gambar untuk penelitian atau pengembangan.
 
@@ -48,6 +52,8 @@ Dataset ini mencakup kategori berikut:
 - **Logam**: Kaleng soda aluminium, kaleng makanan aluminium, kaleng makanan baja, dan kaleng aerosol.
 - **Sampah Organik**: Sisa makanan seperti kulit buah, potongan sayuran, cangkang telur, ampas kopi, dan kantong teh.
 - **Tekstil**: Pakaian dan sepatu.
+
+ </details>
 
 ## **Langkah Instalasi**
 
