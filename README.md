@@ -26,6 +26,41 @@ Sampah adalah salah satu tantangan utama dalam menjaga kelestarian lingkungan. D
 
 ---
 ## **Dataset**
+
+Dataset ini berisi kumpulan 15.000 gambar (masing-masing berukuran 256x256 piksel) yang menampilkan berbagai material daur ulang, sampah umum, dan barang rumah tangga dalam 30 kategori berbeda. Setiap kategori memiliki 500 gambar, dengan 250 gambar untuk subkategori *default* dan 250 gambar untuk subkategori *real_world*. Dataset ini bertujuan untuk mendukung penelitian dan pengembangan dalam klasifikasi sampah dan sistem daur ulang dengan menyediakan sumber daya gambar berkualitas tinggi dan beragam.
+
+**Sumber Dataset:** Dataset ini berasal dari Kaggle, dapat diakses melalui tautan berikut: [Recyclable and Household Waste Classification Dataset](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification/data).
+
+### Struktur Dataset
+Dataset diorganisasi dalam struktur folder hierarkis yang memudahkan navigasi dan aksesibilitas. Folder utama bernama `images` yang berisi subfolder untuk setiap kategori sampah atau item. Nama subfolder digunakan sebagai label untuk kategorinya masing-masing, sehingga memudahkan identifikasi dan pemanfaatan gambar untuk penelitian atau pengembangan.
+
+Setiap subfolder kategori memiliki dua folder utama:
+
+1. **default**: Berisi gambar standar atau studio dari item sampah. Gambar ini memberikan representasi jelas dan terkontrol yang berguna untuk pelatihan awal atau pengujian model klasifikasi sampah.
+2. **real_world**: Berisi gambar item sampah di lingkungan nyata. Gambar ini menangkap item dalam berbagai konteks seperti di tempat sampah, di tanah, atau lingkungan berantakan. Gambar ini penting untuk mengevaluasi performa model klasifikasi sampah dalam situasi nyata.
+
+Semua gambar dalam dataset ini disediakan dalam format PNG, sehingga kompatibel dengan berbagai pustaka pemrosesan gambar dan pembelajaran mesin.
+
+### Kategori Sampah
+Dataset ini mencakup kategori berikut:
+
+- **Plastik**: Botol air plastik, botol soda, botol deterjen, kantong belanja, kantong sampah, wadah makanan, alat makan sekali pakai, sedotan, dan tutup gelas.
+- **Kertas dan Karton**: Surat kabar, kertas kantor, majalah, kotak karton, dan kemasan karton.
+- **Kaca**: Botol minuman, toples makanan, dan wadah kosmetik berbahan kaca.
+- **Logam**: Kaleng soda aluminium, kaleng makanan aluminium, kaleng makanan baja, dan kaleng aerosol.
+- **Sampah Organik**: Sisa makanan seperti kulit buah, potongan sayuran, cangkang telur, ampas kopi, dan kantong teh.
+- **Tekstil**: Pakaian dan sepatu.
+
+### Penggunaan dan Aplikasi Dataset
+Dataset ini menawarkan banyak kemungkinan untuk:
+
+1. Mengembangkan dan melatih model pembelajaran mesin untuk klasifikasi sampah otomatis.
+2. Menganalisis karakteristik visual dari berbagai material sampah.
+3. Membandingkan kinerja algoritma klasifikasi sampah pada gambar standar dan gambar dunia nyata.
+4. Meneliti dampak skenario dunia nyata terhadap akurasi pengenalan sampah.
+
+## Pembagian Dataset
+Dataset ini perlu dibagi secara manual menjadi set pelatihan (*training*), validasi (*validation*), dan pengujian (*testing*). 
 ---
 
 ## **Langkah Instalasi**
