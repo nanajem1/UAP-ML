@@ -139,6 +139,57 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 
 ---
 
+### **VGG16**
+
+VGG16 adalah salah satu model Convolutional Neural Network (CNN) yang terkenal untuk tugas klasifikasi gambar. Model ini dikembangkan oleh tim Visual Geometry Group (VGG) dari University of Oxford.
+
+## Detail Model
+
+<details>
+<summary>Informasi Model</summary>
+
+- **Base Model**: VGG16 (weights = "imagenet", input shape = (224, 224, 3))
+- **Layer Tambahan**:
+  - GlobalAveragePooling2D
+  - Batch Normalization
+  - Dense Layers dengan aktivasi ReLU
+  - Dropout Layers untuk mencegah overfitting
+  - Dense Layer terakhir dengan aktivasi Softmax untuk 30 kelas keluaran
+- **Total Parameter**:
+  - Trainable: **7.16 M**
+  - Non-Trainable: **7.63 M**
+
+</details>
+
+## Preprocessing Data
+
+1. **Augmentasi Data (Training)**:
+   - Rescaling (1/255)
+   - Rotasi acak, pergeseran, shear, dan zoom
+   - Flip horizontal
+2. **Preprocessing untuk Validasi dan Pengujian**:
+   - Rescaling (1/255)
+
+Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama pelatihan dan evaluasi.
+
+## Konfigurasi Pelatihan
+
+- **Optimizer**: Adam
+- **Loss Function**: Categorical Crossentropy
+- **Metrics**: Categorical Accuracy
+- **Epochs**: 50
+- **Batch Size**: 32
+- **Ukuran Input Gambar**: 224 x 224 x 3
+
+## Hasil Evaluasi
+
+- **Akurasi Data Tes**: **76.85%**
+- **Loss Data Tes**: **0.77**
+
+
+
+---
+
 ## **Hasil dan Analisis**
 
 Model ini mencapai metrik performa berikut pada data pengujian:
