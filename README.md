@@ -105,6 +105,7 @@ Proyek ini mengimplementasikan model deep learning untuk mengklasifikasikan samp
 
 
  <details>
+ <summary>Informasi Model</summary>
 
 - **Base Model**: MobileNet (weights = "imagenet", input shape = (224, 224, 3))
 - **Layer Tambahan**:
@@ -143,7 +144,6 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 
 VGG16 adalah salah satu model Convolutional Neural Network (CNN) yang terkenal untuk tugas klasifikasi gambar. Model ini dikembangkan oleh tim Visual Geometry Group (VGG) dari University of Oxford.
 
-## Detail Model
 
 <details>
 <summary>Informasi Model</summary>
