@@ -14,6 +14,13 @@
     <div class="container">
       <h1>Image Prediction</h1>
       <form method="POST" enctype="multipart/form-data">
+        <!-- Dropdown pilihan model -->
+        <label for="model-select">Choose a model:</label>
+        <select id="model-select" name="model_choice" class="model-select">
+          <option value="mobilenet_model">MobileNet</option>
+          <option value="vgg_model">VGG</option>
+        </select>
+
         <!-- Gaya khusus untuk input file -->
         <label class="file-label">
           <input type="file" name="file" class="file-input" />
@@ -43,10 +50,5 @@
         </a>
       </div>
     </div>
-    <!-- Gambar di kanan -->
-    <!-- <div class="side-image">
-      <img src="static/images/gambar3.jpg" alt="Right Image" />
-    </div> -->
-  </div>
- </body>
+  </body>
 </html>
