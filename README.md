@@ -97,8 +97,6 @@ Dataset ini mencakup kategori berikut:
 ---
 ## **Deskripsi Model**
 
-<details>
-
 ### **Model yang Digunakan**
 - **Model:** MobileNet
   - **Input:** Gambar berukuran 224x224 piksel.
@@ -110,8 +108,6 @@ Dataset ini mencakup kategori berikut:
 - **Ambang Confidence:** 50% untuk memastikan prediksi akurat.
 - **Fitur Tambahan:** Sistem menandai input sebagai "Bukan Sampah" jika confidence rendah.
 
-</details>
-
 ---
 
 ## **Hasil dan Analisis**
@@ -121,7 +117,7 @@ Model ini mencapai metrik performa berikut pada data pengujian:
 - **Loss**: **0.59**
 
 Model dapat dilihat di Google Colab melalui link berikut:
-[Model Klasifikasi Sampah di Google Colab](https://colab.research.google.com/drive/1eeZcsnz0NKTCcBmzubqCg1r2wRiq0kCl?authuser=0#scrollTo=JAVez2ZIt2qb)
+[Model Klasifikasi](https://colab.research.google.com/drive/1eeZcsnz0NKTCcBmzubqCg1r2wRiq0kCl?authuser=0#scrollTo=JAVez2ZIt2qb)
 
 
 <details>
