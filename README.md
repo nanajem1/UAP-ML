@@ -315,6 +315,34 @@ Model ini mencapai metrik performa berikut pada data pengujian:
   </details>
   
 ---
+### **Perbandingan Performa Model**
+
+## Perbandingan Performansi
+
+| **Kriteria**           | **VGG16**                | **MobileNet**            |
+|-------------------------|--------------------------|--------------------------|
+| **Parameter Trainable** | 7.16 juta               | 561.37 ribu             |
+| **Non-Trainable Params**| 7.63 juta               | 2.31 juta               |
+| **Ukuran Model**        | Relatif besar           | Relatif kecil           |
+| **Akurasi Data Tes**    | 77.0%                   | **82.81%**              |
+| **Loss Data Tes**       | 0.77                    | **0.68**                |
+| **Kecepatan Pelatihan** | Lambat                  | Cepat                   |
+| **Kemampuan Fitur**     | Baik untuk fitur kompleks | Baik untuk fitur umum    |
+| **Kebutuhan Resource**  | Tinggi                  | Rendah                  |
+
+---
+
+## Kesimpulan
+
+### Rekomendasi:
+- Jika **akurasi tinggi dengan sumber daya terbatas** menjadi prioritas, gunakan **MobileNet**.
+- Jika proyek membutuhkan kemampuan untuk mempelajari fitur kompleks dan memiliki **sumber daya komputasi besar**, gunakan **VGG16**.
+
+### Pilihan Terbaik untuk Proyek Ini:
+- **MobileNet** memberikan akurasi lebih tinggi (**82.81%**) dibandingkan **VGG16** (**77.0%**), dengan ukuran model yang jauh lebih kecil dan pelatihan yang lebih cepat. Oleh karena itu, **MobileNet** adalah model terbaik untuk digunakan dalam klasifikasi sampah ini.
+
+  
+---
 
 ## **Link Live Demo**
 - **URL Lokal**: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
