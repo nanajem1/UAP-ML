@@ -199,7 +199,7 @@ Model dapat dilihat di Google Colab melalui link berikut:
 
 
 <details>
-<summary>Informasi Model</summary>
+<summary>MobileNet</summary>
 
 Model ini mencapai metrik performa berikut pada data pengujian:
 - **Akurasi**: **81.13%**
@@ -256,6 +256,64 @@ Model ini mencapai metrik performa berikut pada data pengujian:
 
 </details>
 
+---
+
+<details>
+<summary>VGG16</summary>
+
+- **Akurasi Data Tes**: **77.0%**
+- **Loss Data Tes**: **0.77**
+
+## Laporan Klasifikasi (Data Pengujian)
+
+| Nama Kategori                  | Precision | Recall | F1-Score | Support |
+|--------------------------------|-----------|--------|----------|---------|
+| aerosol_cans                   | 0.79      | 0.77   | 0.78     | 71      |
+| aluminum_food_cans             | 0.48      | 0.48   | 0.48     | 71      |
+| aluminum_soda_cans             | 0.77      | 0.80   | 0.79     | 71      |
+| cardboard_boxes                | 0.58      | 0.63   | 0.61     | 71      |
+| cardboard_packaging            | 0.51      | 0.49   | 0.50     | 71      |
+| clothing                       | 0.74      | 0.72   | 0.73     | 71      |
+| coffee_grounds                 | 0.91      | 0.86   | 0.88     | 71      |
+| disposable_plastic_cutlery     | 0.97      | 0.90   | 0.93     | 71      |
+| eggshells                      | 0.82      | 0.96   | 0.88     | 71      |
+| food_waste                     | 0.80      | 0.93   | 0.86     | 71      |
+| glass_beverage_bottles         | 0.77      | 0.79   | 0.78     | 71      |
+| glass_cosmetic_containers      | 0.74      | 0.92   | 0.82     | 71      |
+| glass_food_jars                | 0.93      | 0.75   | 0.83     | 71      |
+| magazines                      | 0.85      | 0.90   | 0.88     | 71      |
+| newspaper                      | 0.89      | 0.77   | 0.83     | 71      |
+| office_paper                   | 0.48      | 0.66   | 0.56     | 71      |
+| paper_cups                     | 0.77      | 0.85   | 0.81     | 71      |
+| plastic_cup_lids               | 0.79      | 0.77   | 0.78     | 71      |
+| plastic_detergent_bottles      | 0.91      | 0.87   | 0.89     | 71      |
+| plastic_food_containers        | 0.93      | 0.58   | 0.71     | 71      |
+| plastic_shopping_bags          | 0.69      | 0.79   | 0.74     | 71      |
+| plastic_soda_bottles           | 0.74      | 0.83   | 0.78     | 71      |
+| plastic_straws                 | 0.98      | 0.76   | 0.86     | 71      |
+| plastic_trash_bags             | 0.94      | 0.69   | 0.80     | 71      |
+| plastic_water_bottles          | 0.75      | 0.62   | 0.68     | 71      |
+| shoes                          | 0.87      | 0.94   | 0.91     | 71      |
+| steel_food_cans                | 0.51      | 0.52   | 0.52     | 71      |
+| styrofoam_cups                 | 0.96      | 0.77   | 0.86     | 71      |
+| styrofoam_food_containers      | 0.84      | 0.93   | 0.88     | 71      |
+| tea_bags                       | 0.73      | 0.79   | 0.76     | 71      |
+
+| **Akurasi Keseluruhan**        |           |        | **0.77** | **2130** |
+| **Rata-rata Makro**            | **0.78**  | **0.77** | **0.77** | **2130** |
+| **Rata-rata Tertimbang**       | **0.78**  | **0.77** | **0.77** | **2130** |
+
+---
+
+## Fitur Utama
+
+- Transfer learning dengan VGG16 untuk ekstraksi fitur
+- Augmentasi data untuk meningkatkan generalisasi model
+- Klasifikasi multi-kelas untuk 30 kategori sampah
+- Model menunjukkan performa kuat pada kategori seperti *disposable_plastic_cutlery* dan *eggshells*.
+
+  </details>
+  
 ---
 
 ## **Link Live Demo**
