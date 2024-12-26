@@ -32,7 +32,35 @@ def predict(file_path):
 
     class_name = class_names[class_index]
 
+    # Klasifikasi kategori sampah
     organic_classes = ["coffee_grounds", "eggshells", "food_waste", "tea_bags"]
-    category = "Organik" if class_name in organic_classes else "Non-Organik"
+    plastic_classes = [
+        "plastic_cup_lids", "plastic_detergent_bottles", "plastic_food_containers",
+        "plastic_shopping_bags", "plastic_soda_bottles", "plastic_straws",
+        "plastic_trash_bags", "plastic_water_bottles", "disposable_plastic_cutlery"
+    ]
+    paper_classes = ["newspaper", "office_paper", "magazines", "paper_cups"]
+    cardboard_classes = ["cardboard_boxes", "cardboard_packaging"]
+    glass_classes = ["glass_beverage_bottles", "glass_cosmetic_containers", "glass_food_jars"]
+    metal_classes = ["aerosol_cans", "aluminum_food_cans", "aluminum_soda_cans", "steel_food_cans"]
+    textile_classes = ["clothing", "shoes"]
+
+    # Tentukan kategori
+    if class_name in organic_classes:
+        category = "Organik"
+    elif class_name in plastic_classes:
+        category = "Non-Organik - Plastik"
+    elif class_name in paper_classes:
+        category = "Non-Organik - Kertas"
+    elif class_name in cardboard_classes:
+        category = "Non-Organik - Karton"
+    elif class_name in glass_classes:
+        category = "Non-Organik - Kaca"
+    elif class_name in metal_classes:
+        category = "Non-Organik - Logam"
+    elif class_name in textile_classes:
+        category = "Non-Organik - Tekstil"
+    else:
+        category = "Non-Organik - Lainnya"
 
     return class_name, category, round(confidence, 2)  # Batasi confidence menjadi 2 angka
