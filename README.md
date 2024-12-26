@@ -28,10 +28,6 @@ Dataset ini berisi kumpulan 15.000 gambar (masing-masing berukuran 256x256 pikse
 
 **Sumber Dataset:** Dataset ini berasal dari Kaggle, dapat diakses melalui tautan berikut: [Recyclable and Household Waste Classification Dataset](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification/data).
 
-**Link Model dari Prediksi**
-
-Anda dapat mengunduh model yang digunakan untuk prediksi melalui link berikut:
-[Model Prediksi - Google Drive](https://drive.google.com/drive/folders/1PlSJp5aN7c4VFQK_al3ms84Q88la6AX_?usp=drive_link)
 
 
 ## Struktur Dataset
@@ -202,6 +198,11 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 
 Model dapat dilihat di Google Colab melalui link berikut:
 [Model Klasifikasi](https://colab.research.google.com/drive/1eeZcsnz0NKTCcBmzubqCg1r2wRiq0kCl?authuser=0#scrollTo=JAVez2ZIt2qb)
+
+**Link Model dari Prediksi**
+
+Anda dapat mengunduh model yang digunakan untuk prediksi melalui link berikut:
+[Model Prediksi - Google Drive](https://drive.google.com/drive/folders/1PlSJp5aN7c4VFQK_al3ms84Q88la6AX_?usp=drive_link)
 
 
 <details>
