@@ -328,6 +328,11 @@ Model ini mencapai metrik performa berikut pada data pengujian:
 | **Kemampuan Fitur**     | Baik untuk fitur kompleks | Baik untuk fitur umum    |
 | **Kebutuhan Resource**  | Tinggi                  | Rendah                  |
 
+
+| **Metode**      | **Precision** | **Recall** | **F1-Score** | **Akurasi** | **Fitur Terbaik**                                |
+|------------------|---------------|------------|--------------|-------------|--------------------------------------------------|
+| **VGG16**       | **0.82**      | **0.81**   | **0.81**     | **82.0%**   | *Disposable Plastic Cutlery* (F1-Score: 0.94)   |
+| **MobileNet**    | 0.78          | 0.77       | 0.77         | 77.0%       | *Eggshells* (F1-Score: 0.88)                    |
 ---
 
 ### Rekomendasi:
