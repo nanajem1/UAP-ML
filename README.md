@@ -208,11 +208,11 @@ Jika aplikasi telah di-deploy, tambahkan tautan berikut:
 ---
 ## **Tampilan Lokal Web Deployment**
 
-### Home Page
+### HomePage
 
 ![Home Page](https://github.com/nanajem1/UAP-ML/blob/main/static/images/homepage.jpg)
 
-### Prediksi
+### Tampilan Prediction Result
 
 ![Hasil Prediksi](https://github.com/nanajem1/UAP-ML/blob/main/static/images/predick.jpg)
 
