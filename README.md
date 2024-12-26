@@ -330,8 +330,6 @@ Model ini mencapai metrik performa berikut pada data pengujian:
 
 ---
 
-## Kesimpulan
-
 ### Rekomendasi:
 - Jika **akurasi tinggi dengan sumber daya terbatas** menjadi prioritas, gunakan **MobileNet**.
 - Jika proyek membutuhkan kemampuan untuk mempelajari fitur kompleks dan memiliki **sumber daya komputasi besar**, gunakan **VGG16**.
