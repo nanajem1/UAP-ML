@@ -97,16 +97,41 @@ Dataset ini mencakup kategori berikut:
 ---
 ## **Deskripsi Model**
 
-### **Model yang Digunakan**
-- **Model:** MobileNet
-  - **Input:** Gambar berukuran 224x224 piksel.
-  - **Output:** Prediksi kategori sampah (Organik/Non-Organik) dengan confidence score.
-  - **Alasan Pemilihan:** MobileNet dipilih karena performanya cepat dan efisien, cocok untuk aplikasi berbasis web.
+Proyek ini mengimplementasikan model deep learning untuk mengklasifikasikan sampah ke dalam **30 kategori** menggunakan transfer learning dengan arsitektur MobileNet. Dataset diorganisasi ke dalam tiga subset: **70% untuk training**, **15% untuk validasi**, dan **15% untuk pengujian**.
 
-### **Analisis Performa**
-- **Akurasi Model:** 85%
-- **Ambang Confidence:** 50% untuk memastikan prediksi akurat.
-- **Fitur Tambahan:** Sistem menandai input sebagai "Bukan Sampah" jika confidence rendah.
+
+ <details>
+
+- **Base Model**: MobileNet (weights = "imagenet", input shape = (224, 224, 3))
+- **Layer Tambahan**:
+  - GlobalAveragePooling2D
+  - Batch Normalization
+  - Dense Layers dengan aktivasi ReLU
+  - Dropout Layers untuk mencegah overfitting
+  - Dense Layer terakhir dengan aktivasi Softmax untuk 30 kelas keluaran
+- **Total Parameter**:
+  - Trainable: **561.37 K**
+  - Non-Trainable: **2.31 M**
+
+### Preprocessing Data
+1. **Augmentasi Data (Training)**:
+   - Rescaling (1/255)
+   - Rotasi acak, pergeseran, shear, dan zoom
+   - Flip horizontal
+2. **Preprocessing untuk Validasi dan Pengujian**:
+   - Rescaling (1/255)
+
+Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama pelatihan dan evaluasi.
+
+### Konfigurasi Pelatihan
+- **Optimizer**: Adam
+- **Loss Function**: Categorical Crossentropy
+- **Metrics**: Accuracy
+- **Epochs**: 30
+- **Batch Size**: 32
+- **Ukuran Input Gambar**: 224 x 224 x 3
+
+ </details>
 
 ---
 
