@@ -194,15 +194,17 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 
 ## **Hasil dan Analisis**
 
-Model ini mencapai metrik performa berikut pada data pengujian:
-- **Akurasi**: **81.13%**
-- **Loss**: **0.59**
-
 Model dapat dilihat di Google Colab melalui link berikut:
 [Model Klasifikasi](https://colab.research.google.com/drive/1eeZcsnz0NKTCcBmzubqCg1r2wRiq0kCl?authuser=0#scrollTo=JAVez2ZIt2qb)
 
 
 <details>
+<summary>Informasi Model</summary>
+
+Model ini mencapai metrik performa berikut pada data pengujian:
+- **Akurasi**: **81.13%**
+- **Loss**: **0.59**
+
    
 ### Laporan Klasifikasi (Data Pengujian)
 
