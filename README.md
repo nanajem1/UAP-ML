@@ -98,6 +98,9 @@ Dataset ini mencakup kategori berikut:
 ---
 ## **Deskripsi Model**
 
+
+### **MobileNet**
+
 Proyek ini mengimplementasikan model deep learning untuk mengklasifikasikan sampah ke dalam **30 kategori** menggunakan transfer learning dengan arsitektur MobileNet. Dataset diorganisasi ke dalam tiga subset: **70% untuk training**, **15% untuk validasi**, dan **15% untuk pengujian**.
 
 
