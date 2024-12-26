@@ -7,6 +7,7 @@
 - [Deskripsi Model](#deskripsi-model)
 - [Hasil dan Analisis](#hasil-dan-analisis)
 - [Link Live Demo](#link-live-demo)
+- [Tampilan Lokal Web Deployment](#tampilam-lokal-web-deployment)
 - [Author](#author)
 
 ---
@@ -204,6 +205,8 @@ Jika aplikasi telah di-deploy, tambahkan tautan berikut:
 - **URL Lokal**: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
 
 
+---
+## **Tampilan Lokal Web Deployment**
 ---
 
 ## **Author**
