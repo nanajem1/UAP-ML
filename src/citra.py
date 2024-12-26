@@ -2,9 +2,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-MODEL_PATH = "model/mobilenet_model.h5"
-model = load_model(MODEL_PATH)
-
+# Daftar kelas
 class_names = [
     "aerosol_cans", "aluminum_food_cans", "aluminum_soda_cans", "cardboard_boxes",
     "cardboard_packaging", "clothing", "coffee_grounds", "disposable_plastic_cutlery",
@@ -16,11 +14,17 @@ class_names = [
     "styrofoam_cups", "styrofoam_food_containers", "tea_bags"
 ]
 
-def predict(file_path):
+# Fungsi prediksi dengan model dinamis
+def predict(file_path, model_path):
+    # Muat model berdasarkan path
+    model = load_model(model_path)
+
+    # Preprocessing gambar
     img = image.load_img(file_path, target_size=(224, 224))
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0) / 255.0
 
+    # Prediksi
     predictions = model.predict(img_array)
     class_index = np.argmax(predictions[0])
     confidence = np.max(predictions[0])
@@ -30,6 +34,7 @@ def predict(file_path):
     if confidence < THRESHOLD:
         return "Unknown", "Bukan Sampah", round(confidence, 2)  # Batasi confidence menjadi 2 angka
 
+    # Nama kelas yang diprediksi
     class_name = class_names[class_index]
 
     # Klasifikasi kategori sampah
