@@ -201,7 +201,6 @@ Model dapat dilihat di Google Colab melalui link berikut:
 ---
 
 ## **Link Live Demo**
-Jika aplikasi telah di-deploy, tambahkan tautan berikut:
 - **URL Lokal**: [http://127.0.0.1:8000](http://127.0.0.1:8000)  
 
 
