@@ -143,7 +143,10 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 ### **VGG16**
 
 VGG16 adalah salah satu model Convolutional Neural Network (CNN) yang terkenal untuk tugas klasifikasi gambar. Model ini dikembangkan oleh tim Visual Geometry Group (VGG) dari University of Oxford.
-
+Proyek ini mengimplementasikan model deep learning untuk mengklasifikasikan sampah ke dalam **30 kategori** menggunakan transfer learning dengan arsitektur **VGG16**. Dataset diorganisasi ke dalam tiga subset:
+- **70% untuk training**
+- **15% untuk validasi**
+- **15% untuk pengujian**
 
 <details>
 <summary>Informasi Model</summary>
@@ -159,7 +162,6 @@ VGG16 adalah salah satu model Convolutional Neural Network (CNN) yang terkenal u
   - Trainable: **7.16 M**
   - Non-Trainable: **7.63 M**
 
-</details>
 
 ## Preprocessing Data
 
@@ -186,7 +188,7 @@ Generator data digunakan untuk memuat dan memproses gambar secara dinamis selama
 - **Akurasi Data Tes**: **76.85%**
 - **Loss Data Tes**: **0.77**
 
-
+</details>
 
 ---
 
