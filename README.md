@@ -317,8 +317,6 @@ Model ini mencapai metrik performa berikut pada data pengujian:
 ---
 ### **Perbandingan Performa Model**
 
-## Perbandingan Performansi
-
 | **Kriteria**           | **VGG16**                | **MobileNet**            |
 |-------------------------|--------------------------|--------------------------|
 | **Parameter Trainable** | 7.16 juta               | 561.37 ribu             |
