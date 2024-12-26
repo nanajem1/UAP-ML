@@ -38,7 +38,7 @@ Setiap subfolder kategori memiliki dua folder utama:
 1. **default**: Berisi gambar standar atau studio dari item sampah. Gambar ini memberikan representasi jelas dan terkontrol yang berguna untuk pelatihan awal atau pengujian model klasifikasi sampah.
 2. **real_world**: Berisi gambar item sampah di lingkungan nyata. Gambar ini menangkap item dalam berbagai konteks seperti di tempat sampah, di tanah, atau lingkungan berantakan. Gambar ini penting untuk mengevaluasi performa model klasifikasi sampah dalam situasi nyata.
 
-Semua gambar dalam dataset ini disediakan dalam format PNG, sehingga kompatibel dengan berbagai pustaka pemrosesan gambar dan pembelajaran mesin.
+Dengan 30  kategori yang masing masing dibagi ke dalam tiga subset: train (70%), validation (15%), dan test (15%) untuk memastikan model dapat dilatih, divalidasi, dan diuji dengan baik
 
 ### Kategori Sampah
 Dataset ini mencakup kategori berikut:
